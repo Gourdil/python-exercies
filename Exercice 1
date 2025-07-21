@@ -1,1 +1,10 @@
-
+# Exercice 1 : Entrées utilisateur et prise de décision
+# Demande à l'utilisateur son âge et affiche un message selon qu'il est mineur, adulte ou senior
+def check_age():
+    age = int(input("Entrez votre âge : "))
+    if age < 18:
+        print("Vous êtes mineur.")
+    elif age <= 65:
+        print("Vous êtes adulte.")
+    else:
+        print("Vous êtes senior.")
